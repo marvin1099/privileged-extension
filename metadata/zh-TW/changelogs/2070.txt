@@ -1,0 +1,3 @@
+* 修正適用於 Android 8.0 Oreo 的 OTA ZIP 檔
+
+* 翻譯更新
