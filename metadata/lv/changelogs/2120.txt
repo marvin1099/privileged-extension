@@ -1,0 +1,3 @@
+* jauna API metode: getInstalledPackages() netsijāta uzstādīto lietotņu saraksta iegūšanai
+
+* pievienoti jauni tulkojumi: bengāļu, vjetnamiešu
