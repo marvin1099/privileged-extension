@@ -1,0 +1,3 @@
+* ការ build ដែលអាចធ្វើឡើងវិញបាន
+
+* បានជួសជុល OTA survival script
