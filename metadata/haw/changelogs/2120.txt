@@ -1,0 +1,3 @@
+* ʻano hana API hou: getInstalledPackages() no ka papa inoa i kānana ʻole ʻia o nā polokalamu i hoʻokomo ʻia
+
+* hoʻohui i nā unuhi hou: Bengali Vietnamese

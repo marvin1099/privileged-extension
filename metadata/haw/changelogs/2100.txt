@@ -1,0 +1,5 @@
+* Hoʻoponopono i nā kūkulu ʻana o Android.mk
+
+* Ua hoʻohui ʻia nā ʻōlelo hou: Albanian, Bengali, Farani, Hebera, Hindi, Nynorsk, Slovak
+
+* ʻAe i ka gradle e kiʻi i nā hilinaʻi mai Debian
