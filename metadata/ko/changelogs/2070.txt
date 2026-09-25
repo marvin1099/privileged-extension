@@ -1,0 +1,3 @@
+* Android 8.0 Oreo의 OTA ZIP 수정
+
+* 번역 업데이트
