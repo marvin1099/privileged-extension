@@ -1,0 +1,3 @@
+* Versió reproduïble
+
+* Corregit el script de supervivència OTA

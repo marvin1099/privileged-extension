@@ -1,0 +1,1 @@
+Corregit l'error en instal·lar o desinstal·lar a l'Android 10/Q (#47)
