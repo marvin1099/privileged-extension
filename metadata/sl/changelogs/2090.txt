@@ -1,0 +1,3 @@
+* Dodani novi jeziki: češčina, madžarščina, ujgurščina
+
+* dodana podpora za gradnje z belo oznako
