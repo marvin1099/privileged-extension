@@ -1,0 +1,3 @@
+* nova API metoda: getInstalledPackages() za nefiltrirani popis instaliranih aplikacija
+
+* dodani su novi prijevodi: bengalski, vijetnamski

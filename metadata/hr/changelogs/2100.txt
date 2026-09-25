@@ -1,0 +1,5 @@
+* Ispravljene Android.mk izgradnje
+
+* Dodani su novi jezici: albanski, bengalski, francuski, hebrejski, hindski, nynorsk, slovački
+
+* Dopusti da gradle dohvaća ovisnosti od Debiana
