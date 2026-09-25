@@ -1,0 +1,3 @@
+* Herproduceerbare build
+
+* OTA survival script gemaakt
