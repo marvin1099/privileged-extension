@@ -1,3 +1,3 @@
-* Correction de l'OTA ZIP pour Android 8.0 Oreo
+* Fichier ZIP de mise à jour OTA pour Android 8.0 Oreo
 
-* Mise à jour des traductions
+* Mises à jour des traductions

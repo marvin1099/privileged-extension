@@ -1,18 +1,25 @@
-Note : F-Droid requiert les privilèges root pour installer Privileged Extension comme une priv-app système.
+Remarque : F-Droid nécessite des privilèges root pour installer Privileged Extension
+en tant qu'« application privilégiée » du système.
 
-https://f-droid.org/packages/org.fdroid.fdroid peut faire usage des privilèges systèmes 
-pour installer, mettre à jour et supprimer des applications de lui même.
-Le seul moyen pour obtenir ces privilèges est de devenir une application système.
+L'extension « https://f-droid.org/packages/org.fdroid.fdroid » peut utiliser les privilèges ou autorisations du système
 
-C'est là que l'Extension Privilégiée fait son entrée - étant une application séparée et bien plus petite,
-elle peut être installée comme une application système et communiquer avec l'application principale via AIDL IPC.
+pour installer, mettre à jour et supprimer des applications de manière autonome. La seule façon d'
 
-Ce qui présente de nombreux avantages :
+obtenir ces privilèges est de devenir une application système.
 
-* Occupation disque réduite dans la partition système
-* Les mises à jour système ne suppriment pas F-Droid
-* Le processus d'installation sur le système via root est plus sûr
+C’est là qu’intervient l’extension « Privileged Extension » : étant une application distincte
 
-Au lieu de cette version, la plupart des utilisateurs voudront installer le fichier ZIP de mise à jour "Over-The-Air" (OTA)
-https://f-droid.org/packages/org.fdroid.fdroid.privileged.ota.
-C'est ici pour mettre à jour Privileged Extension quand il a été installé en utilisant le ZIP OTA.
+et beaucoup plus petite, elle peut être installée en tant qu’application système et communiquer
+
+avec l’application principale via AIDL IPC.
+
+Cela présente plusieurs avantages :
+
+* Réduction de l’espace disque utilisé dans la partition système
+* Les mises à jour du système ne suppriment pas F-Droid
+* Le processus d’installation dans le système via root est plus sûr
+
+Au lieu de cette version, la plupart des utilisateurs préféreront installer le
+fichier ZIP de mise à jour « Over-The-Air » (OTA) nommé
+https://f-droid.org/packages/org.fdroid.fdroid.privileged.ota.  Celui-ci sert à mettre à jour
+Privileged Extension lorsqu’elle a été installée à l’aide du fichier ZIP OTA.

@@ -1,1 +1,1 @@
-Services pour installer et mettre à jour les applications de manière sécurisée
+Services permettant à F-Droid d'installer et de mettre à jour des applications en toute sécurité
