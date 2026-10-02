@@ -94,6 +94,22 @@ no-accel 22 default x86:
   <<: *connected-template
 
 
+buildserver:
+  extends: .base
+  image: registry.gitlab.com/fdroid/fdroidserver:buildserver-trixie
+  script:
+    - apt-get update
+    - apt-get dist-upgrade -y
+
+    # install Java 8
+    - echo "deb https://deb.debian.org/debian sid main" > /etc/apt/sources.list.d/sid.list
+    - apt-get update
+    - apt-get install -y -t sid openjdk-8-jdk-headless
+
+    - test -n "$ANDROID_HOME" || source /etc/profile.d/bsenv.sh
+    - JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64 gradle assembleDebug
+
+
 deploy_nightly:
   extends: .base
   stage: deploy
