@@ -103,13 +103,7 @@ test:
     - ./create_ota.sh release
     # always report on lint errors to the build log
     - sed -i -e 's,textReport .*,textReport true,' app/build.gradle
-    - ./gradlew build || {
-          for log in app/build/reports/*ests/*/*ml; do
-              echo "read $log here:";
-              cat "$log" | curl --silent -F 'clbin=<-' https://clbin.com;
-          done;
-          exit 1;
-      }
+    - ./gradlew build
     - echo "use versionCode that is known to exist on f-droid.org for test:"
     - apt-get -qy install --no-install-recommends jq
     - wget --quiet --tries=0 https://f-droid.org/repo/index-v1.jar
