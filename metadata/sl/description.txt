@@ -1,0 +1,18 @@
+Opomba: F-Droid lza namestitev priviligiranih razširitev, kot sistemske "priv-app" potrebuje korenski dostop.
+
+https://f-droid.org/packages/org.fdroid.fdroid lahko uporablja sistemske privilegije ali dovoljenja
+za samostojno nameščanje, posodabljanje in odstranjevanje aplikacij. Edini način za pridobitev teh privilegijev je, da postanete sistemska aplikacija.
+
+Tukaj pride na vrsto Privileged Extension – ker je ločena aplikacija
+in veliko manjša, jo je mogoče namestiti kot sistemsko aplikacijo in komunicirati
+z glavno aplikacijo prek AIDL IPC.
+
+To ima več prednosti:
+
+* Zmanjšana poraba diska v sistemski particiji
+* Sistemske posodobitve ne odstranijo F-Droida
+* Postopek namestitve v sistem prek korena je varnejši
+
+Namesto te gradnje bo večina uporabnikov želela namestiti
+ZIP datoteko s posodobitvijo "OTA" ("Over-The-Air"), ki se imenuje
+https://f-droid.org/packages/org.fdroid.fdroid.privileged.ota. To je tukaj za posodobitev razširitve Privileged, ko je bila nameščena z uporabo datoteke OTA ZIP.

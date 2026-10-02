@@ -1,0 +1,3 @@
+* Reproducirajuća izgradnja
+
+* Ispravljen OTA skripta za preživljavanje

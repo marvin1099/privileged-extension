@@ -1,0 +1,31 @@
+Nānā: Pono ʻo F-Droid i nā pono kumu e hoʻokomo i ka Privileged Extension
+
+ma ke ʻano he "priv-app" ʻōnaehana.
+
+Hiki iā https://f-droid.org/packages/org.fdroid.fdroid ke hoʻohana i nā pono kumu a i ʻole nā ʻae ʻōnaehana
+
+e hoʻokomo, hoʻohou a wehe i nā noi ma kāna iho. ʻO ke ala wale nō e
+
+loaʻa ai kēlā mau pono, ʻo ia ke lilo i polokalamu ʻōnaehana.
+
+ʻO kēia kahi e komo mai ai ka Privileged Extension - ʻoiai he polokalamu kaʻawale
+
+a ʻoi aku ka liʻiliʻi, hiki ke hoʻokomo ʻia ma ke ʻano he polokalamu ʻōnaehana a kamaʻilio
+
+me ka polokalamu nui ma o AIDL IPC.
+
+He nui nā pono o kēia:
+
+* Hoʻemi ʻia ka hoʻohana ʻana i ka disk ma ka ʻāpana ʻōnaehana
+
+* ʻAʻole wehe nā mea hou o ka ʻōnaehana iā F-Droid
+
+* ʻOi aku ka palekana o ke kaʻina hana o ka hoʻokomo ʻana i loko o ka ʻōnaehana ma o ke kumu
+
+Ma kahi o kēia kūkulu ʻana, makemake ka hapa nui o nā mea hoʻohana e hoʻokomo i ka
+
+Ua kapa ʻia ka faila ZIP "Over-The-Air" (OTA)
+
+https://f-droid.org/packages/org.fdroid.fdroid.privileged.ota. Eia kēia e hōʻano hou
+
+Hoʻonui kūikawā ke hoʻokomo ʻia me ka hoʻohana ʻana i ka OTA ZIP.

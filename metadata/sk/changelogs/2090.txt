@@ -1,0 +1,3 @@
+* Pridané nové jazyky: čeština, maďarčina, ujgurčina
+
+* pridaná podpora pre verzie s vlastným označením

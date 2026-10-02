@@ -1,0 +1,3 @@
+* Afegides llengües noves: Txec, Hongarès, Uigur
+
+* Afegida compatibilitat amb compilacions amb etiqueta blanca

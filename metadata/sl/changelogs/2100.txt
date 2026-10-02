@@ -1,0 +1,5 @@
+* Popravljene različice Android.mk
+
+* Dodani novi jeziki: albanščina, bengalščina, francoščina, hebrejščina, hindujščina, nynorsk, slovaščina
+
+* Gradle lahko pridobi odvisne datoteke iz Debiana

@@ -1,0 +1,21 @@
+Pahnoawpa: F-Droid cha Privileged Extension he system "privileged-app" châta patyh awpa ta
+root privileged-zy â byuh aw.
+
+https://f-droid.org/packages/org.fdroid.fdroid cha dâh eihrâhpazy chvk pasainazy he 
+hmâpa ta epalikeisiezy patyhna, pasâhna, nata thlonazy he a tao thei. Cha  dâh eihrâhpazy 
+la thei nawpa cha dâh app sâkha a châ thei nawpa a châ.
+
+This is where the Privileged Extension comes in - being a separate app
+and much smaller, it can be installed as a system app and communicate
+with the main app via AIDL IPC.
+
+He he a phahnaina hluhpi a hnei:
+
+* Khaw kao liata disk hmâna chyh viapa
+* Khaw pasâhna cha F-Droid thy vei
+* Thari tawhta dâh lâ patyhpa cha thlalôh â chhih via
+
+He taona vyuhpa ta, hmâhtuh hluh chaipazy cha
+https://f-droid.org/packages/org.fdroid.fdroid.privileged.ota ama tahpa
+"Over-The-Air" (OTA) update ZIP file he ama patyh khoh via aw. He he OTA ZIP hmâpa ta
+patyhpa a châ tita Privileged Extension he hmâpa ta pasâh nawpa a châ.

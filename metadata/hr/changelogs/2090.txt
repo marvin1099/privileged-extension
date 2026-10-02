@@ -1,0 +1,3 @@
+* Dodani su novi jezici: češki, mađarski, ujgurski
+
+* dodana je podrška za individualizirane (whitelabel) izgradnje

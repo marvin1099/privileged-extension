@@ -1,0 +1,3 @@
+* Ispravljen OTA ZIP za Android 8.0 Oreo
+
+* aktualizariani prijevodi

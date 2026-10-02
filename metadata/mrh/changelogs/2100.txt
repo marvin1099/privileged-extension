@@ -1,0 +1,5 @@
+* Android.mk builds paraihpa
+
+* Rei theihpazy khôthlupa: Albanian, Bengali, French, Hebrew, Hindi, Nynorsk, Slovak
+
+* Debian tawhta depends he gradle tawh la pasaipa

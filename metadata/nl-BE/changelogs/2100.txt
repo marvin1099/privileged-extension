@@ -1,0 +1,5 @@
+* Android.mk-builds gemaakt
+
+* Nieuwe talen toegevoegd: Albanees, Bengaals, Frans, Hebreeuws, Hindi, Nynorsk, Slowaaks
+
+* Gradle kan nu afhankelijkheden ophalen uit Debian

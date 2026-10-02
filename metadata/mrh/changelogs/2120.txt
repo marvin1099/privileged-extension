@@ -1,0 +1,3 @@
+* API dâh thiehpa: getInstalledPackages() for unfiltered list of installed apps
+
+* reih palei thiehpazy khôthlu: Bengali Vietnamese

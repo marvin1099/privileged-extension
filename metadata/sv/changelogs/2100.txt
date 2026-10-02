@@ -1,0 +1,5 @@
+* Åtgärda Android.mk-byggen
+
+* Nya språk har lagts till: albanska, bengali, franska, hebreiska, hindi, nynorsk, slovakiska
+
+* Tillåt att gradle hämtar inställningar från Debian

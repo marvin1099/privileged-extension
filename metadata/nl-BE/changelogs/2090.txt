@@ -1,0 +1,3 @@
+* Nieuwe talen toegevoegd: Tsjechisch, Hongaars, Oeigoers
+
+* Ondersteuning toegevoegd voor whitelabel-builds

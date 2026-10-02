@@ -1,0 +1,5 @@
+* បានជួសជុល Android.mk builds
+
+* បានបន្ថែមភាសាថ្មី៖ Albanian, Bengali, French, Hebrew, Hindi, Nynorsk, Slovak
+
+* អនុញ្ញាតឱ្យ gradle ទាញយក dependencies ពី Debian

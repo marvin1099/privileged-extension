@@ -1,0 +1,3 @@
+* ny API-metod: getInstalledPackages() för ofiltrerad lista över installerade appar
+
+* lägg till nya översättningar: bengali vietnamesiska

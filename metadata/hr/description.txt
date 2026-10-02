@@ -1,0 +1,21 @@
+Napomena: F-Droid zahtijeva administratorska prava za instalaciju 
+„Proširenje za dozvole” kao sustavsku „priv-app” aplikaciju.
+
+https://f-droid.org/packages/org.fdroid.fdroid može koristiti sustavska prava 
+ili dozvole za samostalnu instalaciju, aktualiziranje i uklanjanje aplikacija. 
+Jedini način da se dobiju ta prava je da aplikacija postane sustavska aplikacija.
+
+Ovdje dolazi do izražaja proširenje „Proširenje za dozvole” – budući da je zasebna i znatno 
+manja aplikacija, može se instalirati kao aplikacija sustava i komunicirati s glavnom 
+aplikacijom putem AIDL IPC-a.
+
+Ovo ima nekoliko prednosti:
+
+* Smanjena upotreba diska u particiji sustava
+* Aktualiziranja sustava ne uklanjaju F-Droid
+* Proces instalacije u sustav putem administratora je sigurniji
+
+Umjesto ove izgradnje, većina korisnika će htjeti instalirati 
+„Over-The-Air” (OTA) ZIP datoteku za aktualiziranje, koja se zove 
+https://f-droid.org/packages/org.fdroid.fdroid.privileged.ota. Ova datoteka služi za 
+aktualiziranje proširenja „Proširenje za dozvole” kada je instalirano pomoću OTA ZIP-a.
