@@ -1,3 +1,8 @@
+### 0.2.14 (2026-10.02)
+
+* fix missing authorization on getInstalledPackages()
+  https://gitlab.com/fdroid/privileged-extension/-/work_items/98
+
 ### 0.2.13 (2022-01-11)
 
 * ota.zip: Fix update-binary to work smoothly on Android 10 and later
