@@ -1,0 +1,3 @@
+* nova metoda API-ja: getInstalledPackages() za nefiltriran seznam nameščenih aplikacij
+
+* dodani novi prevodi: bengalščina vietnamščina

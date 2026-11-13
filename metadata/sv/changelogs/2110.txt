@@ -1,0 +1,1 @@
+Åtgärda installations-/avinstallationsproblem på Android 10/Q (#47)

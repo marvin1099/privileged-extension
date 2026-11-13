@@ -1,0 +1,1 @@
+Odprava težave z namestitvijo/odstranitvijo v sistemu Android 10/Q (#47)

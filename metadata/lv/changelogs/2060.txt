@@ -1,0 +1,3 @@
+* Atkārtojams būvējums
+
+* Salabots OTA izdzīvošanas skripts

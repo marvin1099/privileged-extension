@@ -1,0 +1,3 @@
+* Android 8.0 Oreo 向け OTA ZIP の修正
+
+* 翻訳を更新

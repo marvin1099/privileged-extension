@@ -1,1 +1,1 @@
-Correction d'un problème d'installation sur Android 10/Q (#47)
+Correction d'un problème d'installation/désinstallation sur Android 10/Q (#47)

@@ -1,0 +1,3 @@
+* Reprodukovateľná kompilácia
+
+* Opravený skript na zachovanie funkčnosti pri aktualizácii OTA

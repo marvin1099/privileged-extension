@@ -1,0 +1,1 @@
+Probleem met installeren/verwijderen op Android 10/Q opgelost (#47)

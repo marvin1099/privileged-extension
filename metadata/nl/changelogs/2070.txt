@@ -1,0 +1,3 @@
+* OTA ZIP voor Android 8.0 Oreo gecorrigeerd
+
+* Vertalingsupdates

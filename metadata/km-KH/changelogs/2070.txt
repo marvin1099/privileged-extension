@@ -1,0 +1,3 @@
+* បានជួសជុល OTA ZIP សម្រាប់ Android 8.0 Oreo
+
+* ការធ្វើបច្ចុប្បន្នភាព translation

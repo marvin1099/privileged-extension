@@ -42,6 +42,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.lang.reflect.Method;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -249,6 +250,9 @@ public class PrivilegedService extends Service {
 
         @Override
         public List<PackageInfo> getInstalledPackages(int flags) {
+            if (!accessProtectionHelper.isCallerAllowed()) {
+                return new ArrayList<PackageInfo>();
+            }
             if (Build.VERSION.SDK_INT >= 29) {
                 Integer matchStaticSharedLibraries = getMatchStaticSharedLibraries();
                 if (matchStaticSharedLibraries != null) {

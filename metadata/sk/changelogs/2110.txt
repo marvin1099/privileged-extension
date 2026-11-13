@@ -1,0 +1,1 @@
+Oprava problému s inštaláciou/odinštaláciou na Android 10/Q (#47)

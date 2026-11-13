@@ -1,0 +1,3 @@
+* Mètode nou de l'API: getInstalledPackages() per a una llista sense filtrar d'aplicacions instal·lades
+
+* Afegides traduccions noves: Vietnamita bengalí

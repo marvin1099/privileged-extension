@@ -1,1 +1,21 @@
+Opmerking: F-Droid heeft root privileges nodig om Bevoorrechtte Extensie te installeren
+als systeem "priv-app".
+
+https://f-droid.org/packages/org.fdroid.fdroid kan gebruikmaken van systeemprivileges en -toestemmingen
+om applicaties zelfstandig te installeren, te updaten en te verwijderen. De enige manier om
+deze privileges te verkrijgen is door een systeemapp te worden.
+
+Dit is waar de Bevoorrechtte Extensie van belang is - deze app is zelfstandig
+en veel kleiner waardoor deze geïnstalleerd  kan worden als systeemapp en kan communiceren
+met de primaire app via AIDL IPC.
+
 Dit heeft verschillende voordelen:
+
+* Gebruikt minder schijfruimte in de systeempartitie
+* Systeemupdates verwijderen F-droid niet
+* Het installatieproces in het systeem via root is veiliger
+
+De meeste gebruikers zullen niet deze build maar het
+"Over-The-Air" (OTA) update ZIP bestand installeren, genaamd
+https://f-droid.org/packages/org.fdroid.fdroid.privileged.ota.  Deze is hier om
+de Bevoorrechtte Extensie te updaten als deze is geïnstalleerd via de OTA ZIP.

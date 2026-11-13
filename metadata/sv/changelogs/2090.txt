@@ -1,0 +1,3 @@
+* Nya språk har lagts till: tjeckiska, ungerska, uiguriska
+
+* stöd för "whitelabel"-versioner har lagts till

@@ -1,0 +1,5 @@
+* Corregides les compilacions Android.mk
+
+* Afegides llengües noves: Albanès, Bengalí, Francès, Hebreu, Hindi, Nynorsk, Eslovè
+
+* Permet al Gradle obtenir les dependències de Debian

@@ -1,1 +1,21 @@
-En comptes d'aquesta compilació, molts usuaris voldran instal·lar el Zip d'actualització «Over-The-Air» (OTA) anomenat https://f-droid.org/packages/org.fdroid.fdroid.privileged.ota. D'aquesta forma es pot actualitzar l'extensió privilegiada si s'ha instal·lat prèviament utilitzant el ZIP mitjançant OTA.
+Nota: L'F-Droid necessita permisos d'administrador per a instal·lar una extensió privilegiada
+com a «priv-app» del sistema.
+
+https://f-droid.org/packages/org.fdroid.fdroid pot utilitzar els privilegis o permisos del sistema per a
+instal·lar, actualitzar i suprimir aplicacions de manera autònoma. L'única manera d'obtenir
+aquests privilegis és convertir-se en una aplicació del sistema.
+
+Aquí és on entra en joc l'extensió privilegiada: en ser una aplicació separada i molt més petita,
+es pot instal·lar com a una aplicació del sistema i comunicar-se amb l'aplicació principal
+mitjançant l'IPC AIDL.
+
+Això té certs avantatges:
+
+* Redueix l'ús del disc a la partició del sistema
+* Les actualitzacions del sistema no suprimeixen l'F-Droid
+* El procés d'instal·lació en el sistema a través del "root» és més segur
+
+En comptes d'aquesta compilació, molts usuaris voldran instal·lar
+el Zip d'actualització «Over-The-Air» (OTA) anomenat
+https://f-droid.org/packages/org.fdroid.fdroid.privileged.ota.  D'aquesta forma es pot actualitzar
+l'extensió privilegiada si s'ha instal·lat prèviament utilitzant el ZIP d'OTA.

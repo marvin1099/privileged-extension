@@ -1,0 +1,3 @@
+* បានបន្ថែមភាសាថ្មី៖ Czech, Hungarian, Uygur
+
+* បានបន្ថែមការគាំទ្រសម្រាប់ whitelabel builds
