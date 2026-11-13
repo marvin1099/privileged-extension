@@ -1,3 +1,7 @@
+### Unreleased
+
+* Support addon.d-v2 A/B update environments that provide `backuptool.functions` under `/postinstall/tmp`, following Magisk's addon.d compatibility handling
+
 ### 0.2.14 (2026-10.02)
 
 * fix missing authorization on getInstalledPackages()

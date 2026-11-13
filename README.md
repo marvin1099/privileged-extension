@@ -23,7 +23,7 @@ Advantages of this design:
 * "Unknown Sources" can remain disabled
 * Can easily be built into devices and ROMs
 * Reduced disk usage in the system partition
-* System updates don't remove F-Droid
+* System updates don't remove F-Droid on ROMs that support addon.d
 
 
 ## How do I install it on my device?
@@ -34,6 +34,14 @@ file using the standard mechanism for flashing updates to the
 ROM. This requires the device have an unlocked bootloader. A custom
 Recovery firmware is recommended. This is the same procedure as
 flashing "gapps" after flashing a ROM onto your device.
+
+The ZIP installs an addon.d script to preserve F-Droid and the extension
+across updates on ROMs that implement addon.d (including its A/B
+addon.d-v2 flow). Stock Android and Pixel OTAs do not run addon.d scripts,
+so this mechanism alone cannot preserve the extension across those updates.
+The helper-function lookup follows
+[Magisk's addon.d survival script](https://github.com/topjohnwu/Magisk/blob/master/scripts/addon.d.sh),
+which supports both addon.d-v1 and addon.d-v2 helper locations.
 
 Installing the F-Droid Privileged Extension directly from the F-Droid app requires root access and is only possible on Android versions older than 5.0.
 It is not possible on Android 5.1, 6.0, and newer.
